@@ -5,7 +5,6 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import in.ashokit.entity.UserInfo;
 import in.ashokit.repo.UserInfoRepository;
@@ -24,7 +23,6 @@ public class UserService {
 	public void saveUser() {
 
 		UserInfo u = new UserInfo();
-		u.setUserId(104);
 		u.setName("Cathy");
 		u.setGender("Fe-Male");
 		u.setCountry("CANADA");
@@ -66,7 +64,6 @@ public class UserService {
 		list.forEach(System.out::println);
 	}
 
-	
 	public void executeHQL() {
 
 		/*
@@ -74,7 +71,7 @@ public class UserService {
 		 * 
 		 * list.forEach(System.out::println);
 		 */
-		
+
 		userInfoRepo.m3(101);
 	}
 

@@ -9,13 +9,17 @@ import in.ashokit.service.ProductService;
 @SpringBootApplication
 public class Application {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
 
 		ProductService service = context.getBean(ProductService.class);
 
 		service.saveProduct();
+
+		Thread.sleep(30000);
+
+		service.updateProduct();
 	}
 
 }

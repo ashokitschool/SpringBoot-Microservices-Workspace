@@ -15,7 +15,7 @@ public class Application {
 
 		UserService bean = context.getBean(UserService.class);
 
-		// bean.saveUser();
+		bean.saveUser();
 
 		// bean.getUserById(102);
 
@@ -24,8 +24,8 @@ public class Application {
 		// bean.callFindByMethods();
 
 		// bean.executeNativeQueries();
-		
-		bean.executeHQL();
+
+		// bean.executeHQL();
 	}
 
 }

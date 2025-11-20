@@ -9,7 +9,7 @@ import in.ashokit.service.UserService;
 @SpringBootApplication
 public class Application {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
 
 		UserService bean = context.getBean(UserService.class);
@@ -18,7 +18,9 @@ public class Application {
 
 		// bean.getUserswithPagination();
 
-		bean.qbe();
+		// bean.qbe();
+
+		bean.saveUsers();
 	}
 
 }
