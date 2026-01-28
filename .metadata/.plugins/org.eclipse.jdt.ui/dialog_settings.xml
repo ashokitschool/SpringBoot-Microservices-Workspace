@@ -142,4 +142,7 @@
 	<section name="NewRecordWizardPage">
 		<item key="create_unimplemented" value="false"/>
 	</section>
+	<section name="WorkingSetModelAwareSelectionDialog">
+		<item key="ShowVisibleOnly" value="true"/>
+	</section>
 </section>

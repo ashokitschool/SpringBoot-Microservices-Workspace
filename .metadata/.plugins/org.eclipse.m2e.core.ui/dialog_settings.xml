@@ -80,6 +80,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\37-SB-Redis-App"/>
 			<item value="E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\32-SB-JWT-App"/>
 			<item value="C:\Users\admin\Downloads\02-SB-App"/>
 		</list>
