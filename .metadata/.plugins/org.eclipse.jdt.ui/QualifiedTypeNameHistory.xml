@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="in.ashokit.service.JwtService"/>
-    <fullyQualifiedTypeName name="in.ashokit.service.StudentService"/>
-    <fullyQualifiedTypeName name="org.springframework.security.authentication.UsernamePasswordAuthenticationToken"/>
-    <fullyQualifiedTypeName name="org.springframework.security.web.authentication.WebAuthenticationDetails"/>
-    <fullyQualifiedTypeName name="org.springframework.security.web.authentication.WebAuthenticationDetailsSource"/>
-    <fullyQualifiedTypeName name="org.springframework.security.core.context.SecurityContextHolder"/>
-    <fullyQualifiedTypeName name="org.springframework.security.config.Customizer"/>
-    <fullyQualifiedTypeName name="org.springframework.security.config.http.SessionCreationPolicy"/>
-    <fullyQualifiedTypeName name="in.ashokit.filter.TokenValidationFilter"/>
-    <fullyQualifiedTypeName name="org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter"/>
-    <fullyQualifiedTypeName name="in.ashokit.record.Person"/>
-    <fullyQualifiedTypeName name="org.springframework.batch.infrastructure.item.file.FlatFileItemReader"/>
-    <fullyQualifiedTypeName name="org.springframework.batch.infrastructure.item.file.builder.FlatFileItemReaderBuilder"/>
-    <fullyQualifiedTypeName name="org.springframework.core.io.ClassPathResource"/>
-    <fullyQualifiedTypeName name="org.springframework.batch.infrastructure.item.ItemProcessor"/>
-    <fullyQualifiedTypeName name="in.ashokit.beans.PersonItemProcessor"/>
     <fullyQualifiedTypeName name="javax.sql.DataSource"/>
     <fullyQualifiedTypeName name="org.springframework.batch.infrastructure.item.database.JdbcBatchItemWriter"/>
     <fullyQualifiedTypeName name="org.springframework.batch.infrastructure.item.database.builder.JdbcBatchItemWriterBuilder"/>
@@ -25,7 +9,6 @@
     <fullyQualifiedTypeName name="org.springframework.batch.core.step.builder.StepBuilder"/>
     <fullyQualifiedTypeName name="org.springframework.batch.core.job.builder.JobBuilder"/>
     <fullyQualifiedTypeName name="org.springframework.transaction.PlatformTransactionManager"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
     <fullyQualifiedTypeName name="org.springframework.batch.core.job.JobExecution"/>
     <fullyQualifiedTypeName name="org.springframework.batch.core.job.parameters.JobParameter"/>
     <fullyQualifiedTypeName name="org.springframework.batch.core.job.parameters.JobParameters"/>
@@ -34,7 +17,6 @@
     <fullyQualifiedTypeName name="org.springframework.batch.core.launch.JobLauncher"/>
     <fullyQualifiedTypeName name="org.springframework.batch.core.launch.JobOperator"/>
     <fullyQualifiedTypeName name="org.springframework.web.service.annotation.GetExchange"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="org.springframework.scheduling.annotation.EnableScheduling"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
@@ -48,8 +30,6 @@
     <fullyQualifiedTypeName name="org.springframework.kafka.support.serializer.JacksonJsonSerializer"/>
     <fullyQualifiedTypeName name="org.springframework.kafka.core.DefaultKafkaProducerFactory"/>
     <fullyQualifiedTypeName name="org.springframework.kafka.core.KafkaTemplate"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="in.ashokit.model.Order"/>
     <fullyQualifiedTypeName name="org.springframework.kafka.core.ConsumerFactory"/>
     <fullyQualifiedTypeName name="org.apache.kafka.clients.consumer.ConsumerConfig"/>
@@ -60,4 +40,24 @@
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
     <fullyQualifiedTypeName name="org.springframework.kafka.annotation.KafkaListener"/>
     <fullyQualifiedTypeName name="in.ashokit.constants.AppConstants"/>
+    <fullyQualifiedTypeName name="in.ashokit.service.CalculatorService"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.params.ParameterizedTest"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.params.provider.ValueSource"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.params.provider.CsvSource"/>
+    <fullyQualifiedTypeName name="in.ashokit.service.MsgService"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="in.ashokit.test.MsgRestControllerTest"/>
+    <fullyQualifiedTypeName name="in.ashokit.rest.MsgRestController"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Assertions"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.webmvc.test.autoconfigure.WebMvcTest"/>
+    <fullyQualifiedTypeName name="in.ashokit.rest.CustomerRestController"/>
+    <fullyQualifiedTypeName name="in.ashokit.service.CustomerService"/>
+    <fullyQualifiedTypeName name="org.springframework.test.context.bean.override.mockito.MockitoBean"/>
+    <fullyQualifiedTypeName name="org.springframework.test.web.servlet.MockMvc"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="tools.jackson.databind.ObjectMapper"/>
+    <fullyQualifiedTypeName name="org.springframework.test.web.servlet.request.MockMvcRequestBuilders"/>
 </qualifiedTypeNameHistroy>
